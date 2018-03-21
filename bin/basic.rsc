@@ -1,9 +1,10 @@
 suppress.initial.newline = 1
 
 # Delete duplicates and commented entries
+check.double = on
 check.double.delete = on
 print.deleted.entries = Off
-pass.comments=off
+pass.comments = off
 
 # Sort entries
 sort = on
@@ -18,6 +19,9 @@ rewrite.rule { pages # "\([0-9]+\) *- *\([0-9]+\)" = "\1--\2" }
 
 # Replace " ... " with { ... }
 rewrite.rule = {"^\"\(.*\)\"$" = "{\1}"}
+
+# Sanitize double {{ }}
+rewrite.rule = {"^{{\(.*\)}}$" = "{\1}"}
 
 # Get rid of useless fields
 delete.field = {abstract}
