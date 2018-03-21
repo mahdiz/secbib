@@ -31,6 +31,11 @@ delete.field = {references}
 delete.field = {keywords}
 delete.field = {author_keywords}
 delete.field = {source}
+delete.field = {acmid}
+delete.field = {interhash}
+delete.field = {intrahash}
+delete.field = {timestamp}
+
 rewrite.rule = {note#"^{ *cited by.*}"}
 rewrite.rule = {language# "English"}
 
