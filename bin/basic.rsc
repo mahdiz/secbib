@@ -2,6 +2,11 @@ check.double.delete = on
 print.deleted.entries = Off
 pass.comments=off
 sort = on
+sort.format = {
+    {%-N(author)# %-N(editor)# zzNoName}
+    {%d(year)#9999}
+    {%-0T(title)#zzNoTitle}
+}
 
 # Fix page number range
 rewrite.rule { pages # "\([0-9]+\) *- *\([0-9]+\)" = "\1--\2" }
