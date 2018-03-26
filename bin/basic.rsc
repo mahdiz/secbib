@@ -35,6 +35,8 @@ delete.field = {acmid}
 delete.field = {interhash}
 delete.field = {intrahash}
 delete.field = {timestamp}
+delete.field = {biburl}
+delete.field = {bibsource}
 
 rewrite.rule = {note#"^{ *cited by.*}"}
 rewrite.rule = {language# "English"}
