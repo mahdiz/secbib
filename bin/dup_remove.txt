@@ -1,9 +1,0 @@
-Replace:
-
-\n###(.*\S\n)+
-
-with 
-
-null
-
-in https://regex101.com/
