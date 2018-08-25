@@ -37,6 +37,7 @@ delete.field = {intrahash}
 delete.field = {timestamp}
 delete.field = {biburl}
 delete.field = {bibsource}
+delete.field = {doi}
 
 rewrite.rule = {note#"^{ *cited by.*}"}
 rewrite.rule = {language# "English"}
