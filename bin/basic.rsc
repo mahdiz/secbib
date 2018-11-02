@@ -25,6 +25,7 @@ rewrite.rule = {"^{{\(.*\)}}$" = "{\1}"}
 
 # Get rid of useless fields
 delete.field = {abstract}
+delete.field = {address}
 delete.field = {affiliation}
 delete.field = {correspondence_address1}
 delete.field = {references}
